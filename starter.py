@@ -19,5 +19,11 @@ def calculate_posterior(emails):
     """
     pass
 
+def calculate_prior(emails):
+    """This function should return the probability if an email contains the
+    word 'lottery.'
+    """
+    pass
+
 
 emails["words"] = emails["text"].apply(process_email)
